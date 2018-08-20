@@ -35,6 +35,31 @@ La opcion `--open` o `-o` abrirá automáticamente tu navegador en `http://local
 
 Tu aplicación te dará un mensaje de bienvenida:
 
-![Bienvenido a la aplicación]()
+![Bienvenido a la aplicación](https://github.com/feroviedofernandez/AngularJS/tree/develop/Tutorial/Resources/bienvenido.PNG)
 
 ### Paso 4. Editar tu primer componente de Angular
+
+El CLI ha creado el primer componente de Angular para ti. Este es el componente root y se llama `app-root`. Puedes encontrarlo en `./src/app/app.component.ts`.
+
+Abre el archivo del componente y cambia la propiedad `title` de `"app"` a `"My First Angular App!"`.
+
+```typescript
+export class AppComponent {
+  title = 'My First Angular App!';
+}
+```
+
+El navegador refrescará automáticamente la página con el nuevo título.
+
+Ahora vamos a abrir `src/app/app.component.css` y vamos a darle algunos estilos:
+
+```css
+h1 {
+    color: #369;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 250%;
+}
+```
+
+![Estilos h1](https://github.com/feroviedofernandez/AngularJS/tree/develop/Tutorial/Resources/bienvenido2.PNG)
+
