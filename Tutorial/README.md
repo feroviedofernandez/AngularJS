@@ -35,7 +35,7 @@ La opcion `--open` o `-o` abrirá automáticamente tu navegador en `http://local
 
 Tu aplicación te dará un mensaje de bienvenida:
 
-![Bienvenido a la aplicación](https://github.com/feroviedofernandez/AngularJS/tree/develop/Tutorial/Resources/bienvenido.PNG)
+![Bienvenido a la aplicación](https://github.com/feroviedofernandez/AngularJS/blob/develop/Tutorial/Resources/bienvenido.PNG)
 
 ### Paso 4. Editar tu primer componente de Angular
 
@@ -61,5 +61,5 @@ h1 {
 }
 ```
 
-![Estilos h1](https://github.com/feroviedofernandez/AngularJS/tree/develop/Tutorial/Resources/bienvenido2.PNG)
+![Estilos h1](https://github.com/feroviedofernandez/AngularJS/blob/develop/Tutorial/Resources/bienvenido2.PNG)
 
