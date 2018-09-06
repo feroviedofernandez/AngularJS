@@ -1,0 +1,33 @@
+<div class="container">
+  <form (submit)="addUser(name, lastName, age)">
+      <input type="text" placeholder="Name" #name/>
+      <input type="text" placeholder="Last name" #lastName/>
+      <input type="number" placeholder="Age" #age/>
+      <input type="submit" value="Add user">
+  </form>
+</div>
+
+<div class="container">
+  <table>
+    <thead>
+      <tr>
+        <td>Name</td>
+        <td>Last Name</td>
+        <td>Age</td>
+        <td>Actions</td>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let user of users">
+        <td>{{ user.name }}</td>
+        <td>{{ user.lastName }}</td>
+        <td>{{ user.age }}</td>
+        <td>
+          <button>Edit</button>
+          <button (click)="deleteUser(user)">Delete</button>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+
+</div>

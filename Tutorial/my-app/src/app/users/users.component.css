@@ -1,0 +1,30 @@
+/* Elementos */
+table {
+    border-collapse: collapse;
+    border-spacing: 1em .5em;
+    text-transform: capitalize;
+}
+
+thead > tr > td {
+    border-bottom: 1px double grey;
+    padding: .5em 1em;
+    font-weight: bold;
+}
+
+tbody > tr > td {
+    padding: 1em;
+    font-style: italic;
+}
+
+button {
+    margin-right: .2em;
+}
+
+form > input {
+    margin: 0 .5em;
+}
+
+/* Clases */
+.container {
+    margin-bottom: 1em;
+}
